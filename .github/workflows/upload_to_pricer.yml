@@ -1,0 +1,38 @@
+name: Sync JSON to BDA-Pricer
+
+on:
+  push:
+    branches:
+      - main  # Cambia se necessario
+    paths:
+      - 'db-tables.json'  # Si attiva solo se viene modificato questo file
+
+jobs:
+  sync_file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configura Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Clona il repository di destinazione (BDA-Pricer)
+        run: |
+          git clone https://x-access-token:${{ secrets.DEST_REPO_PAT }}@github.com/tuo-username/BDA-Pricer.git target_repo
+          cd target_repo
+          git checkout main  # Assicurati di copiare nel branch corretto
+
+      - name: Copia e sovrascrive il file JSON
+        run: |
+          cp db-tables.json target_repo/wwwroot/data/db-tables.json  # Sovrascrive il file nel repo target
+          cd target_repo
+          git add wwwroot/data/db-tables.json
+          git commit -m "Aggiornato db-tables.json da UploadPVTFiles" || echo "Nessuna modifica da committare"
+          git push origin main
+
+      - name: Conclusione
+        run: echo "File copiato con successo in BDA-Pricer/wwwroot/data/db-tables.json"

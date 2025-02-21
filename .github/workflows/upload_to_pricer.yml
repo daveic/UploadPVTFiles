@@ -24,7 +24,10 @@ jobs:
         run: |
           mkdir -p BDA-Pricer/wwwroot/data  # Crea la cartella se non esiste
           cp db-tables.json BDA-Pricer/wwwroot/data/db-tables.json  # Copia il file
-
+          
+      - name: Sposta il file nella directory corretta
+        run: mv wwwroot/data/db-tables.json BDA-Pricer/wwwroot/data/
+        
       - name: Commit e push delle modifiche
         run: |
           cd BDA-Pricer

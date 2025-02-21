@@ -17,9 +17,7 @@ jobs:
 
       - name: Clona il repository di destinazione (BDA-Pricer)
         run: |
-          git clone https://github.com/daveic/BDA-Pricer.git
-          env:
-            GITHUB_TOKEN: ${{ secrets.DEST_REPO_PAT }}
+          git clone https://x-access-token:${{ secrets.DEST_REPO_PAT }}@github.com/daveic/BDA-Pricer.git BDA-Pricer
           ls -la  # Controlla il contenuto della cartella
 
       - name: Sostituisci il file JSON

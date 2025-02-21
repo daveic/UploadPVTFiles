@@ -1,0 +1,455 @@
+{
+    "Connections": [
+        {
+            "ID": "1",
+            "Connection": "1/4-NPT-M-316L",
+            "Price": "2.00",
+            "Fresa_Price": "1.00",
+            "Sald_Stacchi_Price": "2.00",
+            "ConnCode": "4NS",
+            "Fresa_Price_Contrp": "1.25"
+          },
+          {
+            "ID": "2",
+            "Connection": "1/4-NPT-F-316L",
+            "Price": "3.00",
+            "Fresa_Price": "1.50",
+            "Sald_Stacchi_Price": "2.25",
+            "ConnCode": "4FS",
+            "Fresa_Price_Contrp": "1.88"
+          },
+          {
+            "ID": "3",
+            "Connection": "1/2-NPT-M-316L",
+            "Price": "3.00",
+            "Fresa_Price": "2.00",
+            "Sald_Stacchi_Price": "2.25",
+            "ConnCode": "8NS",
+            "Fresa_Price_Contrp": "2.50"
+          },
+          {
+            "ID": "4",
+            "Connection": "1/2-NPT-F-316L",
+            "Price": "4.00",
+            "Fresa_Price": "2.00",
+            "Sald_Stacchi_Price": "2.25",
+            "ConnCode": "8FS",
+            "Fresa_Price_Contrp": "2.50"
+          },
+          {
+            "ID": "5",
+            "Connection": "1/4-NPT-M-A106-GRB",
+            "Price": "1.23",
+            "Fresa_Price": "1.00",
+            "Sald_Stacchi_Price": "1.50",
+            "ConnCode": "4NB",
+            "Fresa_Price_Contrp": "1.25"
+          },
+          {
+            "ID": "6",
+            "Connection": "1/4-NPT-F-A106-GRB",
+            "Price": "2.00",
+            "Fresa_Price": "2.00",
+            "Sald_Stacchi_Price": "1.75",
+            "ConnCode": "4FB",
+            "Fresa_Price_Contrp": "2.50"
+          },
+          {
+            "ID": "7",
+            "Connection": "1/2-NPT-M-A106-GRB",
+            "Price": "2.00",
+            "Fresa_Price": "2.00",
+            "Sald_Stacchi_Price": "1.75",
+            "ConnCode": "8NB",
+            "Fresa_Price_Contrp": "2.50"
+          },
+          {
+            "ID": "8",
+            "Connection": "1/2-NPT-F-A106-GRB",
+            "Price": "3.00",
+            "Fresa_Price": "2.00",
+            "Sald_Stacchi_Price": "1.75",
+            "ConnCode": "8FB",
+            "Fresa_Price_Contrp": "2.50"
+          }
+    ],
+    "DN_Sched_Tube": [
+        {
+            "DN_Sched_Tube_Code": "1-40-316L",
+            "Meter_Price": "26.70",
+            "Cut_Price": "3.00",
+            "Torn_Price": "5.00",
+            "Circ_Sald_Price": "10.00",
+            "MaterialsCode": "sba",
+            "Closure_Price": "10.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "20.00",
+            "Zinc_KG_Price": "0.00",
+            "Linear_Weight": "2.55",
+            "ID": "1"
+        },
+        {
+            "DN_Sched_Tube_Code": "1-80-316L",
+            "Meter_Price": "34.00",
+            "Cut_Price": "3.00",
+            "Torn_Price": "5.00",
+            "Circ_Sald_Price": "10.00",
+            "MaterialsCode": "sbb",
+            "Closure_Price": "10.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "20.00",
+            "Zinc_KG_Price": "0.00",
+            "Linear_Weight": "3.29",
+            "ID": "2"
+        },
+        {
+            "DN_Sched_Tube_Code": "1-1/2-40-316L",
+            "Meter_Price": "36.67",
+            "Cut_Price": "3.00",
+            "Torn_Price": "5.00",
+            "Circ_Sald_Price": "10.00",
+            "MaterialsCode": "sca",
+            "Closure_Price": "13.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "26.00",
+            "Zinc_KG_Price": "0.00",
+            "Linear_Weight": "4.13",
+            "ID": "3"
+        },
+        {
+            "DN_Sched_Tube_Code": "1-1/2-80-316L",
+            "Meter_Price": "42.39",
+            "Cut_Price": "3.50",
+            "Torn_Price": "5.00",
+            "Circ_Sald_Price": "10.00",
+            "MaterialsCode": "scb",
+            "Closure_Price": "13.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "26.00",
+            "Zinc_KG_Price": "0.00",
+            "Linear_Weight": "5.51",
+            "ID": "4"
+        },
+        {
+            "DN_Sched_Tube_Code": "2-40-316L",
+            "Meter_Price": "46.15",
+            "Cut_Price": "3.00",
+            "Torn_Price": "6.00",
+            "Circ_Sald_Price": "15.00",
+            "MaterialsCode": "sda",
+            "Closure_Price": "18.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "36.00",
+            "Zinc_KG_Price": "0.00",
+            "Linear_Weight": "5.54",
+            "ID": "5"
+        },
+        {
+            "DN_Sched_Tube_Code": "2-80-316L",
+            "Meter_Price": "61.10",
+            "Cut_Price": "3.50",
+            "Torn_Price": "6.00",
+            "Circ_Sald_Price": "15.00",
+            "MaterialsCode": "sdb",
+            "Closure_Price": "18.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "36.00",
+            "Zinc_KG_Price": "0.00",
+            "Linear_Weight": "7.62",
+            "ID": "6"
+        },
+        {
+            "DN_Sched_Tube_Code": "3-40-316L",
+            "Meter_Price": "105.70",
+            "Cut_Price": "6.00",
+            "Torn_Price": "20.00",
+            "Circ_Sald_Price": "30.00",
+            "MaterialsCode": "sea",
+            "Closure_Price": "40.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "80.00",
+            "Zinc_KG_Price": "0.00",
+            "Linear_Weight": "11.51",
+            "ID": "7"
+        },
+        {
+            "DN_Sched_Tube_Code": "3-80-316L",
+            "Meter_Price": "166.37",
+            "Cut_Price": "6.00",
+            "Torn_Price": "20.00",
+            "Circ_Sald_Price": "50.00",
+            "MaterialsCode": "seb",
+            "Closure_Price": "40.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "80.00",
+            "Zinc_KG_Price": "0.00",
+            "Linear_Weight": "15.56",
+            "ID": "8"
+        },
+        {
+            "DN_Sched_Tube_Code": "1-40-A106-GRB",
+            "Meter_Price": "4.25",
+            "Cut_Price": "3.00",
+            "Torn_Price": "5.00",
+            "Circ_Sald_Price": "6.00",
+            "MaterialsCode": "bba",
+            "Closure_Price": "6.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "12.00",
+            "Zinc_KG_Price": "2.20",
+            "Linear_Weight": "2.55",
+            "ID": "9"
+        },
+        {
+            "DN_Sched_Tube_Code": "1-80-A106-GRB",
+            "Meter_Price": "7.10",
+            "Cut_Price": "3.00",
+            "Torn_Price": "5.00",
+            "Circ_Sald_Price": "6.00",
+            "MaterialsCode": "bbb",
+            "Closure_Price": "6.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "12.00",
+            "Zinc_KG_Price": "2.20",
+            "Linear_Weight": "3.29",
+            "ID": "10"
+        },
+        {
+            "DN_Sched_Tube_Code": "1-1/2-40-A106-GRB",
+            "Meter_Price": "9.00",
+            "Cut_Price": "3.00",
+            "Torn_Price": "5.00",
+            "Circ_Sald_Price": "6.00",
+            "MaterialsCode": "bca",
+            "Closure_Price": "8.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "16.00",
+            "Zinc_KG_Price": "2.20",
+            "Linear_Weight": "4.13",
+            "ID": "11"
+        },
+        {
+            "DN_Sched_Tube_Code": "1-1/2-80-A106-GRB",
+            "Meter_Price": "12.00",
+            "Cut_Price": "3.50",
+            "Torn_Price": "5.00",
+            "Circ_Sald_Price": "6.00",
+            "MaterialsCode": "bcb",
+            "Closure_Price": "8.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "16.00",
+            "Zinc_KG_Price": "2.20",
+            "Linear_Weight": "5.51",
+            "ID": "12"
+        },
+        {
+            "DN_Sched_Tube_Code": "2-40-A106-GRB",
+            "Meter_Price": "9.15",
+            "Cut_Price": "3.00",
+            "Torn_Price": "6.00",
+            "Circ_Sald_Price": "8.00",
+            "MaterialsCode": "bda",
+            "Closure_Price": "10.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "20.00",
+            "Zinc_KG_Price": "2.20",
+            "Linear_Weight": "5.54",
+            "ID": "13"
+        },
+        {
+            "DN_Sched_Tube_Code": "2-80-A106-GRB",
+            "Meter_Price": "6.05",
+            "Cut_Price": "3.50",
+            "Torn_Price": "6.00",
+            "Circ_Sald_Price": "10.00",
+            "MaterialsCode": "bdb",
+            "Closure_Price": "10.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "20.00",
+            "Zinc_KG_Price": "2.20",
+            "Linear_Weight": "7.62",
+            "ID": "14"
+        },
+        {
+            "DN_Sched_Tube_Code": "3-40-A106-GRB",
+            "Meter_Price": "19.20",
+            "Cut_Price": "6.00",
+            "Torn_Price": "15.00",
+            "Circ_Sald_Price": "30.00",
+            "MaterialsCode": "bea",
+            "Closure_Price": "15.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "30.00",
+            "Zinc_KG_Price": "2.20",
+            "Linear_Weight": "11.51",
+            "ID": "15"
+        },
+        {
+            "DN_Sched_Tube_Code": "3-80-A106-GRB",
+            "Meter_Price": "37.80",
+            "Cut_Price": "6.00",
+            "Torn_Price": "15.00",
+            "Circ_Sald_Price": "50.00",
+            "MaterialsCode": "beb",
+            "Closure_Price": "15.00",
+            "Qty": "2",
+            "Closure_Tot_Price": "30.00",
+            "Zinc_KG_Price": "2.20",
+            "Linear_Weight": "15.56",
+            "ID": "16"
+        }
+    ],
+    "Sabb_Stac": [
+        {
+          "ID": "1",
+          "Stacchi": "2",
+          "Sabb_Price": "3.50",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "2",
+          "Stacchi": "3",
+          "Sabb_Price": "3.50",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "3",
+          "Stacchi": "4",
+          "Sabb_Price": "3.50",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "4",
+          "Stacchi": "5",
+          "Sabb_Price": "3.50",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "5",
+          "Stacchi": "6",
+          "Sabb_Price": "4.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "6",
+          "Stacchi": "7",
+          "Sabb_Price": "4.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "7",
+          "Stacchi": "8",
+          "Sabb_Price": "4.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "8",
+          "Stacchi": "9",
+          "Sabb_Price": "4.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "9",
+          "Stacchi": "10",
+          "Sabb_Price": "6.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "10",
+          "Stacchi": "11",
+          "Sabb_Price": "10.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "11",
+          "Stacchi": "12",
+          "Sabb_Price": "12.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "12",
+          "Stacchi": "13",
+          "Sabb_Price": "12.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "13",
+          "Stacchi": "14",
+          "Sabb_Price": "12.00",
+          "StacchiType": "L"
+        },
+        {
+          "ID": "14",
+          "Stacchi": "2",
+          "Sabb_Price": "3.50",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "15",
+          "Stacchi": "4",
+          "Sabb_Price": "3.50",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "16",
+          "Stacchi": "6",
+          "Sabb_Price": "4.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "17",
+          "Stacchi": "8",
+          "Sabb_Price": "4.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "18",
+          "Stacchi": "10",
+          "Sabb_Price": "6.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "19",
+          "Stacchi": "12",
+          "Sabb_Price": "12.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "20",
+          "Stacchi": "14",
+          "Sabb_Price": "12.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "21",
+          "Stacchi": "16",
+          "Sabb_Price": "12.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "22",
+          "Stacchi": "18",
+          "Sabb_Price": "12.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "23",
+          "Stacchi": "20",
+          "Sabb_Price": "12.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "24",
+          "Stacchi": "22",
+          "Sabb_Price": "15.00",
+          "StacchiType": "S"
+        },
+        {
+          "ID": "25",
+          "Stacchi": "24",
+          "Sabb_Price": "20.00",
+          "StacchiType": "S"
+        }
+      ]
+
+  }

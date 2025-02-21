@@ -28,8 +28,8 @@ jobs:
 
       - name: Copia e sovrascrive il file JSON
         run: |
-          cp db-tables.json target_repo/wwwroot/data/db-tables.json  # Sovrascrive il file nel repo target
-          cd target_repo
+          cp db-tables.json BDA-Pricer/wwwroot/data/db-tables.json  # Sovrascrive il file nel repo target
+          cd BDA-Pricer
           git add wwwroot/data/db-tables.json
           git commit -m "Aggiornato db-tables.json da UploadPVTFiles" || echo "Nessuna modifica da committare"
           git push origin master

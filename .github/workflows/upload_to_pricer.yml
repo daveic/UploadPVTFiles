@@ -32,7 +32,7 @@ jobs:
           git config user.email "github-actions@github.com"
           git add wwwroot/data/db-tables.json
           git commit -m "Aggiornato db-tables.json da UploadPVTFiles" || echo "Nessuna modifica da committare"
-          git push https://x-access-token:${{ secrets.DEST_REPO_PAT }}@github.com/daveic/BDA-Pricer.git main
+          git push https://x-access-token:${{ secrets.DEST_REPO_PAT }}@github.com/daveic/BDA-Pricer.git master
 
       - name: Conclusione
         run: echo "File copiato con successo in BDA-Pricer/wwwroot/data/db-tables.json"

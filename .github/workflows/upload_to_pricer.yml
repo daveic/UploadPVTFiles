@@ -22,7 +22,7 @@ jobs:
 
       - name: Clona il repository di destinazione (BDA-Pricer)
         run: |
-          git clone https://x-access-token:${{ secrets.DEST_REPO_PAT }}@github.com/tuo-username/BDA-Pricer.git target_repo
+          git clone https://x-access-token:${{ secrets.DEST_REPO_PAT }}@github.com/daveic/BDA-Pricer.git target_repo
           cd target_repo
           git checkout main  # Assicurati di copiare nel branch corretto
 

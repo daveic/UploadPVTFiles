@@ -24,7 +24,7 @@ jobs:
         run: |
           git clone https://x-access-token:${{ secrets.DEST_REPO_PAT }}@github.com/daveic/BDA-Pricer.git target_repo
           cd target_repo
-          git checkout main  # Assicurati di copiare nel branch corretto
+          git checkout master  # Assicurati di copiare nel branch corretto
 
       - name: Copia e sovrascrive il file JSON
         run: |
@@ -32,7 +32,7 @@ jobs:
           cd target_repo
           git add wwwroot/data/db-tables.json
           git commit -m "Aggiornato db-tables.json da UploadPVTFiles" || echo "Nessuna modifica da committare"
-          git push origin main
+          git push origin master
 
       - name: Conclusione
         run: echo "File copiato con successo in BDA-Pricer/wwwroot/data/db-tables.json"

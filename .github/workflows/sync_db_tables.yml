@@ -26,6 +26,11 @@ jobs:
         run: |
           cp db-tables.json wwwroot/data/
 
+      - name: Show directory structure after cloning
+        run: |
+          echo "Repository structure after cloning:"
+          tree BDA-Pricer || ls -R BDA-Pricer
+
       - name: Commit and push changes to master
         run: |
           cd BDA-Pricer

@@ -21,15 +21,17 @@ jobs:
           cd BDA-Pricer
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
-      - name: Copy updated db-tables.json
-        run: |
-          cp db-tables.json wwwroot/data/
-
+          
       - name: Show directory structure after cloning
         run: |
           echo "Repository structure after cloning:"
           tree BDA-Pricer || ls -R BDA-Pricer
+          
+      - name: Copy updated db-tables.json
+        run: |
+          cp db-tables.json wwwroot/data/
+
+
 
       - name: Commit and push changes to master
         run: |

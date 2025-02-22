@@ -5,7 +5,7 @@ on:
     paths:
       - "db-tables.json"
     branches:
-      - main  # Cambia se il branch di UploadPVTFiles è diverso
+      - main  # Cambia se necessario
 
 jobs:
   sync-file:
@@ -15,9 +15,9 @@ jobs:
       - name: Checkout UploadPVTFiles repository
         uses: actions/checkout@v4
 
-      - name: Clone BDA-Pricer repository
+      - name: Clone BDA-Pricer repository with authentication
         run: |
-          git clone https://github.com/daveic/BDA-Pricer.git
+          git clone https://daveic:${{ secrets.GH_PAT }}@github.com/daveic/BDA-Pricer.git
           cd BDA-Pricer
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
@@ -31,4 +31,4 @@ jobs:
           cd BDA-Pricer
           git add wwwroot/data/db-tables.json
           git commit -m "Update db-tables.json from UploadPVTFiles"
-          git push https://daveic:${{ secrets.GH_PAT }}@github.com/daveic/BDA-Pricer.git master
+          git push origin master

@@ -451,6 +451,48 @@
           "Sabb_Price": "20.00",
           "StacchiType": "S"
         }
+      ],
+      "Materials": [
+        {
+          "ID": "S",
+          "Materiale": "Aisi 316L"
+        },
+        {
+          "ID": "D",
+          "Materiale": "F51 - DUPLEX"
+        },
+        {
+          "ID": "M",
+          "Materiale": "Aisi 316 Ti"
+        },
+        {
+          "ID": "E",
+          "Materiale": "F55 - SUPERDUPLEX"
+        },
+        {
+          "ID": "B",
+          "Materiale": "ASTM A106 Gr.B"
+        },
+        {
+          "ID": "U",
+          "Materiale": "P11"
+        },
+        {
+          "ID": "P",
+          "Materiale": "ASTM A106 Gr.C"
+        },
+        {
+          "ID": "V",
+          "Materiale": "P22"
+        },
+        {
+          "ID": "F",
+          "Materiale": "Alloy 400"
+        },
+        {
+          "ID": "Q",
+          "Materiale": "P91"
+        }
       ]
 
   }

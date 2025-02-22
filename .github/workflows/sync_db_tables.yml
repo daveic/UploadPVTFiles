@@ -1,0 +1,34 @@
+name: Sync db-tables.json to BDA-Pricer
+
+on:
+  push:
+    paths:
+      - "db-tables.json"
+    branches:
+      - main  # Cambia se il branch di UploadPVTFiles è diverso
+
+jobs:
+  sync-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout UploadPVTFiles repository
+        uses: actions/checkout@v4
+
+      - name: Clone BDA-Pricer repository
+        run: |
+          git clone https://github.com/daveic/BDA-Pricer.git
+          cd BDA-Pricer
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Copy updated db-tables.json
+        run: |
+          cp db-tables.json BDA-Pricer/wwwroot/data/
+
+      - name: Commit and push changes to master
+        run: |
+          cd BDA-Pricer
+          git add wwwroot/data/db-tables.json
+          git commit -m "Update db-tables.json from UploadPVTFiles"
+          git push https://daveic:${{ secrets.GH_PAT }}@github.com/daveic/BDA-Pricer.git master

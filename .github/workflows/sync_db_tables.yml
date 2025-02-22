@@ -34,6 +34,6 @@ jobs:
       - name: Commit and push changes to master
         run: |
           cd BDA-Pricer
-          git add wwwroot/data/db-tables.json
+          git add BDA-Pricer/wwwroot/data/db-tables.json
           git commit -m "Update db-tables.json from UploadPVTFiles"
           git push origin master

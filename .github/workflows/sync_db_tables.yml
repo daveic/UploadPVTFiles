@@ -24,7 +24,7 @@ jobs:
 
       - name: Copy updated db-tables.json
         run: |
-          cp db-tables.json BDA-Pricer/wwwroot/data/
+          cp db-tables.json wwwroot/data/
 
       - name: Commit and push changes to master
         run: |

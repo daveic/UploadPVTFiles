@@ -1,5 +1,5 @@
 {    
-  "_comment": "1D seguito è rappresentata graficamente la struttura delle 3 tabelle modificabili nel file. Non toccare la tabella 'Materials'. In tutti i casi ID va incrementato di 1 rispetto all'ultimo valore presente, in caso di aggiunta di nuove righe. I decimali vanno rappresentati con due cifre dopo la virgola.",
+  "_comment": "Di2 seguito è rappresentata graficamente la struttura delle 3 tabelle modificabili nel file. Non toccare la tabella 'Materials'. In tutti i casi ID va incrementato di 1 rispetto all'ultimo valore presente, in caso di aggiunta di nuove righe. I decimali vanno rappresentati con due cifre dopo la virgola.",
   "_comment1": "Tabella Connections:",
   "_comment2": " +------+------------+---------+-------------+---------+--------------------+",
   "_comment3": " | ID   | Connection | Price   | Fresa_Price | ConnCode| Fresa_Price_Contrp |",

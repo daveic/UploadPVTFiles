@@ -1,5 +1,35 @@
 {    
-  "_comment": "Questa è una spiegazione aggiornata oggi forse 7",
+  "_comment": "Di seguito è rappresentata graficamente la struttura delle 3 tabelle modificabili nel file. Non toccare la tabella 'Materials'. In tutti i casi ID va incrementato di 1 rispetto all'ultimo valore presente, in caso di aggiunta di nuove righe. I decimali vanno rappresentati con due cifre dopo la virgola.",
+  "_comment1": "Tabella Connections:",
+  "_comment2": " +------+------------+---------+-------------+---------+--------------------+",
+  "_comment3": " | ID   | Connection | Price   | Fresa_Price | ConnCode| Fresa_Price_Contrp |",
+  "_comment4": " +------+------------+---------+-------------+---------+--------------------+",
+  "_comment5": " | INT  | STRING     | DECIMAL | DECIMAL     | STRING  | DECIMAL            |",
+  "_comment6": " +------+------------+---------+-------------+---------+--------------------+",
+
+  "_comment7": "Tabella DN_Sched_Tube:",
+  "_comment8": "  +------+--------------------+-------------+-------------+------------+-----------------+---------------+---------------+-----+-------------------+---------------+---------------+",
+  "_comment9": "  | ID   | DN_Sched_Tube_Code | Meter_Price | Cut_Price   | Torn_Price | Circ_Sald_Price | MaterialsCode | Closure_Price | Qty | Closure_Tot_Price | Zinc_KG_Price | Linear_Weight |",
+  "_comment10": " +------+--------------------+-------------+-------------+------------+-----------------+---------------+---------------+-----+-------------------+---------------+---------------+",
+  "_comment11": " | INT  | STRING             | DECIMAL     | DECIMAL     | DECIMAL    | DECIMAL         | STRING        | DECIMAL       | INT | DECIMAL           | DECIMAL       | DECIMAL       |",
+  "_comment12": " +------+--------------------+-------------+-------------+------------+-----------------+---------------+---------------+-----+-------------------+---------------+---------------+",
+              
+  "_comment13": "Tabella Sabb_Stac:",
+  "_comment14": "  +-----+---------+------------+-------------+",
+  "_comment15": "  | ID  | Stacchi | Sabb_Price | StacchiType |",
+  "_comment16": "  +-----+---------+------------+-------------+",
+  "_comment17": "  | INT | INT     | DECIMAL    | CHAR        |",
+  "_comment18": "  +-----+---------+------------+-------------+",
+  
+  "_comment19": "!!NON MODIFICARE!! - Tabella Materials:",
+  "_comment20": "  +--------+--------------+",
+  "_comment21": "  | ID     | Materiale    |",
+  "_comment22": "  +--------+--------------+",
+  "_comment23": "  | CHAR   | STRING       |",
+  "_comment24": "  +--------+--------------+",
+
+  "_comment25": "Nota: La tabella 'Materials' è immutabile e contiene informazioni sui materiali utilizzati.",
+
     "Connections": [
         {
             "ID": "1",
